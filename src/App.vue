@@ -1,17 +1,32 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import MainComp from "./components/MainComp.vue";
+import { ref, onMounted, onUnmounted } from "vue";
+
+const scale = ref(1);
+
+function updateScale() {
+  const widthRatio = window.innerWidth / 1920;
+  const heightRatio = window.innerHeight / 1080;
+  scale.value = Math.min(widthRatio, heightRatio);
+}
+
+onMounted(() => {
+  updateScale();
+  window.addEventListener("resize", updateScale);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("resize", updateScale);
+});
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div
+    :style="{ transform: `scale(${scale})`, transformOrigin: 'top left' }"
+    role="application"
+  >
+    <MainComp />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
