@@ -1,4 +1,38 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useMainCompStore } from "../stores/mainCompStore";
+import { useFocusStore } from "../stores/focusStore";
+import { nextTick, onMounted, onUnmounted, useTemplateRef } from "vue";
+
+const storeMainComp = useMainCompStore();
+const storeFocus = useFocusStore();
+
+const startRef = useTemplateRef("start");
+
+onMounted(() => {
+  if (storeFocus.ifStartInFocus) {
+    startRef.value?.focus();
+  }
+});
+
+onUnmounted(() => {
+  storeFocus.ifStartInFocus = false;
+});
+
+async function Start() {
+  //storeFocus.ifInstructionFocus = false;
+  await nextTick();
+  storeMainComp.ifStart = false;
+  storeMainComp.ifInstruction = true;
+}
+
+async function StartWithFocus(event: any) {
+  event.preventDefault();
+  //storeFocus.ifInstructionFocus = true;
+  await nextTick();
+  storeMainComp.ifStart = false;
+  storeMainComp.ifInstruction = true;
+}
+</script>
 <template>
   <div class="tlo">
     <div class="title-container">
@@ -6,11 +40,19 @@
         <p>Podróż z Latarnikiem</p>
       </div>
     </div>
-    <button class="button-start my-button">Start</button>
+    <button
+      class="button-start my-button"
+      ref="start"
+      @click="Start"
+      @keydown.enter="StartWithFocus"
+      aria-label="Gra edukacyjna - uruchom grę"
+    >
+      Start
+    </button>
   </div>
 </template>
 
-<style style>
+<style scoped>
 .tlo {
   background-image: url("../assets/plansza_his.png");
   background-size: 1920px 1080px;
@@ -21,7 +63,6 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 

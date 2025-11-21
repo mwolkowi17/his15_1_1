@@ -1,0 +1,585 @@
+{
+  "poziom1": [
+    {
+      "id": "1",
+      "pytanie": "Powstanie listopadowe upadło w roku:",
+      "odpowiedz1": "1831",
+      "odpowiedz2": "1830",
+      "odpowiedz3": "1930",
+      "odpowiedz4": "1931",
+      "prawidlowa_odpowiedz": "1"
+    },
+    {
+      "id": "2",
+      "pytanie": "Emigracja to:",
+      "odpowiedz1": "opuszczenie swojej ojczyzny",
+      "odpowiedz2": "wyjazd na wakacje",
+      "odpowiedz3": "praca w rodzinnej miejscowości",
+      "odpowiedz4": "walka w powstaniu",
+      "prawidlowa_odpowiedz": "1"
+    },
+    {
+      "id": "3",
+      "pytanie": "Cyprian Norwid był:",
+      "odpowiedz1": "poetą",
+      "odpowiedz2": "wynalazcą",
+      "odpowiedz3": "założycielem banku",
+      "odpowiedz4": "politykiem",
+      "prawidlowa_odpowiedz": "1"
+    },
+    {
+      "id": "4",
+      "pytanie": "Emigracja z powodów ekonomicznych to inaczej emigracja:",
+      "odpowiedz1": "„za chlebem”",
+      "odpowiedz2": "„z chlebem”",
+      "odpowiedz3": "„pod chlebem”",
+      "odpowiedz4": "„o chlebie”",
+      "prawidlowa_odpowiedz": "1"
+    },
+    {
+      "id": "5",
+      "pytanie": "Które miasto było głównym ośrodkiem Wielkiej Emigracji?",
+      "odpowiedz1": "Paryż",
+      "odpowiedz2": "Ateny",
+      "odpowiedz3": "Tokio",
+      "odpowiedz4": "Barcelona",
+      "prawidlowa_odpowiedz": "1"
+    },
+    {
+      "id": "6",
+      "pytanie": "Kiedy upadło powstanie listopadowe?",
+      "odpowiedz1": "w I połowie XIX wieku",
+      "odpowiedz2": "w II połowie XIX wieku",
+      "odpowiedz3": "w I połowie XVIII wieku",
+      "odpowiedz4": "w I połowie XX wieku",
+      "prawidlowa_odpowiedz": "1"
+    },
+    {
+      "id": "7",
+      "pytanie": "Wyjazdy Polaków z ziem polskich z powodów politycznych i patriotycznych, które miały miejsce po powstaniu listopadowym, to:",
+      "odpowiedz1": "Wielka Emigracja",
+      "odpowiedz2": "Mała Emigracja",
+      "odpowiedz3": "Polska Akcja",
+      "odpowiedz4": "Wielka Likwidacja",
+      "prawidlowa_odpowiedz": "1"
+    },
+    {
+      "id": "8",
+      "pytanie": "Autorem wiersza „W pamiętniku Zofii Bobrówny” jest:",
+      "odpowiedz1": "Juliusz Słowacki",
+      "odpowiedz2": "Adam Mickiewicz",
+      "odpowiedz3": "Joachim Lelewel",
+      "odpowiedz4": "Zygmunt Krasiński",
+      "prawidlowa_odpowiedz": "1"
+    },
+    {
+      "id": "9",
+      "pytanie": "Patriota to osoba, która:",
+      "odpowiedz1": "kocha swoją ojczyznę",
+      "odpowiedz2": "szkodzi swojej ojczyźnie",
+      "odpowiedz3": "jest przestępcą",
+      "odpowiedz4": "nie chce pracować",
+      "prawidlowa_odpowiedz": "1"
+    },
+    {
+      "id": "10",
+      "pytanie": "Antoni Patek założył firmę, która produkowała zegarki kieszonkowe:",
+      "odpowiedz1": "w Szwajcarii",
+      "odpowiedz2": "w Szwecji",
+      "odpowiedz3": "w Hiszpanii",
+      "odpowiedz4": "w Stanach Zjednoczonych",
+      "prawidlowa_odpowiedz": "1"
+    }
+  ],
+  "poziom1b": [
+    {
+      "id": "1",
+      "pytanie": "Powstanie listopadowe upadło w roku:",
+      "odpowiedz1": "1931",
+      "odpowiedz2": "1831",
+      "odpowiedz3": "1830 ",
+      "odpowiedz4": "1930",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "2",
+      "pytanie": "Emigracja to:",
+      "odpowiedz1": "walka w powstaniu",
+      "odpowiedz2": "opuszczenie swojej ojczyzny",
+      "odpowiedz3": " wyjazd na wakacje",
+      "odpowiedz4": "praca w rodzinnej miejscowości ",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "3",
+      "pytanie": "Cyprian Norwid był:",
+      "odpowiedz1": "politykiem",
+      "odpowiedz2": "poetą",
+      "odpowiedz3": "wynalazcą",
+      "odpowiedz4": "założycielem banku",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "4",
+      "pytanie": "Emigracja z powodów ekonomicznych to inaczej emigracja:",
+      "odpowiedz1": "„o chlebie” ",
+      "odpowiedz2": "„za chlebem”",
+      "odpowiedz3": "„z chlebem”",
+      "odpowiedz4": "„pod chlebem”",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "5",
+      "pytanie": "Które miasto było głównym ośrodkiem Wielkiej Emigracji?",
+      "odpowiedz1": "Barcelona",
+      "odpowiedz2": "Paryż",
+      "odpowiedz3": "Ateny",
+      "odpowiedz4": "Tokio",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "6",
+      "pytanie": "Kiedy upadło powstanie listopadowe?",
+      "odpowiedz1": "w I połowie XX wieku",
+      "odpowiedz2": "w I połowie XIX wieku",
+      "odpowiedz3": "w II połowie XIX wieku",
+      "odpowiedz4": "w I połowie XVIII wieku",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "7",
+      "pytanie": "Wyjazdy Polaków z ziem polskich z powodów politycznych i patriotycznych, które miały miejsce po powstaniu listopadowym, to:",
+      "odpowiedz1": "Wielka Likwidacja",
+      "odpowiedz2": "Wielka Emigracja",
+      "odpowiedz3": "Mała Emigracja ",
+      "odpowiedz4": "Polska Akcja",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "8",
+      "pytanie": "Autorem wiersza „W pamiętniku Zofii Bobrówny” jest:",
+      "odpowiedz1": "Zygmunt Krasiński",
+      "odpowiedz2": "Juliusz Słowacki",
+      "odpowiedz3": "Adam Mickiewicz",
+      "odpowiedz4": "Joachim Lelewel",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "9",
+      "pytanie": "Patriota to osoba, która:",
+      "odpowiedz1": "nie chce pracować",
+      "odpowiedz2": "kocha swoją ojczyznę",
+      "odpowiedz3": "szkodzi swojej ojczyźnie",
+      "odpowiedz4": "jest przestępcą ",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "10",
+      "pytanie": "Antoni Patek założył firmę, która produkowała zegarki kieszonkowe:",
+      "odpowiedz1": "w Stanach Zjednoczonych",
+      "odpowiedz2": "w Szwajcarii",
+      "odpowiedz3": "w Szwecji",
+      "odpowiedz4": "w Hiszpanii",
+      "prawidlowa_odpowiedz": "2"
+    }
+  ],
+  "poziom1c": [
+    {
+      "id": "1",
+      "pytanie": "Powstanie listopadowe upadło w roku:",
+      "odpowiedz1": "1930",
+      "odpowiedz2": "1931",
+      "odpowiedz3": "1831",
+      "odpowiedz4": "1830",
+      "prawidlowa_odpowiedz": "3"
+    },
+    {
+      "id": "2",
+      "pytanie": "Emigracja to:",
+      "odpowiedz1": "praca w rodzinnej miejscowości",
+      "odpowiedz2": "walka w powstaniu",
+      "odpowiedz3": "opuszczenie swojej ojczyzny",
+      "odpowiedz4": "wyjazd na wakacje",
+      "prawidlowa_odpowiedz": "3"
+    },
+    {
+      "id": "3",
+      "pytanie": "Cyprian Norwid był:",
+      "odpowiedz1": "założycielem banku",
+      "odpowiedz2": "politykiem",
+      "odpowiedz3": "poetą",
+      "odpowiedz4": "wynalazcą",
+      "prawidlowa_odpowiedz": "3"
+    },
+    {
+      "id": "4",
+      "pytanie": "Emigracja z powodów ekonomicznych to inaczej emigracja:",
+      "odpowiedz1": "„pod chlebem”",
+      "odpowiedz2": "„o chlebie”",
+      "odpowiedz3": "„za chlebem”",
+      "odpowiedz4": "„z chlebem”",
+      "prawidlowa_odpowiedz": "3"
+    },
+    {
+      "id": "5",
+      "pytanie": "Które miasto było głównym ośrodkiem Wielkiej Emigracji?",
+      "odpowiedz1": "Tokio",
+      "odpowiedz2": "Barcelona",
+      "odpowiedz3": "Paryż",
+      "odpowiedz4": "Ateny",
+      "prawidlowa_odpowiedz": "3"
+    },
+    {
+      "id": "6",
+      "pytanie": "Kiedy upadło powstanie listopadowe?",
+      "odpowiedz1": "w I połowie XVIII wieku",
+      "odpowiedz2": "w I połowie XX wieku",
+      "odpowiedz3": "w I połowie XIX wieku",
+      "odpowiedz4": "w II połowie XIX wieku",
+      "prawidlowa_odpowiedz": "3"
+    },
+    {
+      "id": "7",
+      "pytanie": "Wyjazdy Polaków z ziem polskich z powodów politycznych i patriotycznych, które miały miejsce po powstaniu listopadowym, to:",
+      "odpowiedz1": "Polska Akcja",
+      "odpowiedz2": "Wielka Likwidacja",
+      "odpowiedz3": "Wielka Emigracja ",
+      "odpowiedz4": "Mała Emigracja",
+      "prawidlowa_odpowiedz": "3"
+    },
+    {
+      "id": "8",
+      "pytanie": "Autorem wiersza „W pamiętniku Zofii Bobrówny” jest:",
+      "odpowiedz1": "Joachim Lelewel",
+      "odpowiedz2": "Zygmunt Krasiński",
+      "odpowiedz3": "Juliusz Słowacki",
+      "odpowiedz4": "Adam Mickiewicz ",
+      "prawidlowa_odpowiedz": "3"
+    },
+    {
+      "id": "9",
+      "pytanie": "Patriota to osoba, która:",
+      "odpowiedz1": "jest przestępcą",
+      "odpowiedz2": "nie chce pracować",
+      "odpowiedz3": "kocha swoją ojczyznę ",
+      "odpowiedz4": "szkodzi swojej ojczyźnie",
+      "prawidlowa_odpowiedz": "2"
+    },
+    {
+      "id": "10",
+      "pytanie": "Antoni Patek założył firmę, która produkowała zegarki kieszonkowe:",
+      "odpowiedz1": "w Hiszpanii",
+      "odpowiedz2": "w Stanach Zjednoczonych",
+      "odpowiedz3": "w Szwajcarii",
+      "odpowiedz4": "w Szwecji",
+      "prawidlowa_odpowiedz": "2"
+    }
+  ],
+
+  "poziom2": [
+    {
+      "id": "1",
+      "pytanie": " Która informacja na temat losów Polaków po powstaniu listopadowym jest nieprawdziwa?",
+      "odpowiedz1": "Spotykały ich represje.",
+      "odpowiedz2": "Mieli złe warunki do nauki.",
+      "odpowiedz3": "Zaborcy zabierali im majątki.",
+      "odpowiedz4": "Dostawali nagrody od zaborców.",
+      "prawidlowa_odpowiedz": "4",
+      "podpowiedz": "Polacy po powstaniu listopadowym znaleźli się w trudnej sytuacji."
+    },
+    {
+      "id": "2",
+      "pytanie": "Polonia to:",
+      "odpowiedz1": "grupa osób pochodzenia polskiego, która na stałe mieszka za granicą",
+      "odpowiedz2": "Polacy, którzy na stałe mieszkają w Polsce",
+      "odpowiedz3": "Ukraińcy, którzy na stałe mieszkają w Polsce",
+      "odpowiedz4": "Polacy, którzy wyjeżdżają z Polski raz w roku na wakacje",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Ta nazwa odnosi się do Polaków na emigracji"
+    },
+    {
+      "id": "3",
+      "pytanie": "Jan Józef Baranowski:",
+      "odpowiedz1": "udoskonalił sieć kolejową (skonstruował semafor) ",
+      "odpowiedz2": "założył pierwszy na świecie bank",
+      "odpowiedz3": "zbudował największą na świecie fabrykę zegarków kieszonkowych",
+      "odpowiedz4": "napisał kilka powieści",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Był wynalazcą."
+    },
+    {
+      "id": "4",
+      "pytanie": "Polacy w XIX wieku chętnie wyjeżdżali na emigrację do Paryża, ponieważ: ",
+      "odpowiedz1": "rząd francuski płacił im zasiłek",
+      "odpowiedz2": "we Francji było tanio",
+      "odpowiedz3": "chcieli jak najszybciej zapomnieć o Polsce",
+      "odpowiedz4": "we Francji była lepsza pogoda",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Chodzi o wypłacane pieniądze"
+    },
+    {
+      "id": "5",
+      "pytanie": "Juliusz Słowacki napisał wiersz „W pamiętniku Zofii Bobrówny”:",
+      "odpowiedz1": "w Paryżu",
+      "odpowiedz2": "w Warszawie",
+      "odpowiedz3": "w Krzemieńcu",
+      "odpowiedz4": "we Lwowie",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Wiersz ten powstał na emigracji."
+    },
+    {
+      "id": "6",
+      "pytanie": "Która informacja na temat sytuacji poetów i pisarzy, którzy po powstaniu listopadowym mieszkali na ziemiach polskich, jest prawdziwa?",
+      "odpowiedz1": "Nie mogli wydawać swoich utworów w języku polskim.",
+      "odpowiedz2": "Zaborcy oddawali im swój majątek.",
+      "odpowiedz3": "Ich dzieci mogły uczyć się w polskich uniwersytetach.",
+      "odpowiedz4": "W nagrodę mogli wyjechać na wakacje za granicę.",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Poeci i pisarze po powstaniu listopadowym mieli trudną sytuację życiową."
+    },
+    {
+      "id": "7",
+      "pytanie": "Wśród emigrantów „za chlebem” byli głównie:",
+      "odpowiedz1": "ubodzy mieszkańcy wsi",
+      "odpowiedz2": "bogaci mieszczanie ",
+      "odpowiedz3": "politycy",
+      "odpowiedz4": "właściciele pałaców",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Była to najbiedniejsza część społeczeństwa."
+    },
+    {
+      "id": "8",
+      "pytanie": "Ignacy Domeyko i Ernest Malinowski działali w:",
+      "odpowiedz1": "Ameryce Południowej",
+      "odpowiedz2": "Ameryce Północnej",
+      "odpowiedz3": "Ameryce Środkowej",
+      "odpowiedz4": "Australii",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Obydwaj podróżowali i badali Andy"
+    },
+    {
+      "id": "9",
+      "pytanie": "Jan Szczepanik opatentował: ",
+      "odpowiedz1": "kamizelką kuloodporną",
+      "odpowiedz2": "język esperanto",
+      "odpowiedz3": "semafor",
+      "odpowiedz4": "zegarek",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Jego wynalazek uratował życie królowi Hiszpanii."
+    },
+    {
+      "id": "10",
+      "pytanie": "Największa grupa potomków polskich emigrantów ekonomicznych mieszka dziś:",
+      "odpowiedz1": "w Ameryce",
+      "odpowiedz2": "w Afryce",
+      "odpowiedz3": "na Antarktydzie",
+      "odpowiedz4": "w Azji",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Polacy „za chlebem” udawali się często na zachód od Europy."
+    }
+  ],
+  "poziom2b": [
+    {
+      "id": "1",
+      "pytanie": " Która informacja na temat losów Polaków po powstaniu listopadowym jest nieprawdziwa?",
+      "odpowiedz1": "Dostawali nagrody od zaborców.",
+      "odpowiedz2": "Spotykały ich represje.",
+      "odpowiedz3": "Mieli złe warunki do nauki.",
+      "odpowiedz4": "Zaborcy zabierali im majątki.",
+      "prawidlowa_odpowiedz": "1",
+      "podpowiedz": "Polacy po powstaniu listopadowym znaleźli się w trudnej sytuacji."
+    },
+    {
+      "id": "2",
+      "pytanie": "Polonia to:",
+      "odpowiedz1": "Polacy, którzy wyjeżdżają z Polski raz w roku na wakacje",
+      "odpowiedz2": "grupa osób pochodzenia polskiego, która na stałe mieszka za granicą",
+      "odpowiedz3": "Polacy, którzy na stałe mieszkają w Polsce",
+      "odpowiedz4": "Ukraińcy, którzy na stałe mieszkają w Polsce",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Ta nazwa odnosi się do Polaków na emigracji"
+    },
+    {
+      "id": "3",
+      "pytanie": "Jan Józef Baranowski:",
+      "odpowiedz1": "napisał kilka powieści",
+      "odpowiedz2": "udoskonalił sieć kolejową (skonstruował semafor)",
+      "odpowiedz3": "założył pierwszy na świecie bank",
+      "odpowiedz4": "zbudował największą na świecie fabrykę zegarków kieszonkowych",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Był wynalazcą."
+    },
+    {
+      "id": "4",
+      "pytanie": "Polacy w XIX wieku chętnie wyjeżdżali na emigrację do Paryża, ponieważ: ",
+      "odpowiedz1": "we Francji była lepsza pogoda",
+      "odpowiedz2": "rząd francuski płacił im zasiłek",
+      "odpowiedz3": "we Francji było tanio",
+      "odpowiedz4": "chcieli jak najszybciej zapomnieć o Polsce ",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Chodzi o wypłacane pieniądze"
+    },
+    {
+      "id": "5",
+      "pytanie": "Juliusz Słowacki napisał wiersz „W pamiętniku Zofii Bobrówny”:",
+      "odpowiedz1": "we Lwowie",
+      "odpowiedz2": "w Paryżu",
+      "odpowiedz3": "w Warszawie",
+      "odpowiedz4": "w Krzemieńcu",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Wiersz ten powstał na emigracji."
+    },
+    {
+      "id": "6",
+      "pytanie": "Która informacja na temat sytuacji poetów i pisarzy, którzy po powstaniu listopadowym mieszkali na ziemiach polskich, jest prawdziwa?",
+      "odpowiedz1": "W nagrodę mogli wyjechać na wakacje za granicę.",
+      "odpowiedz2": "Nie mogli wydawać swoich utworów w języku polskim.",
+      "odpowiedz3": "Zaborcy oddawali im swój majątek.",
+      "odpowiedz4": "Ich dzieci mogły uczyć się w polskich uniwersytetach.",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Poeci i pisarze po powstaniu listopadowym mieli trudną sytuację życiową."
+    },
+    {
+      "id": "7",
+      "pytanie": "Wśród emigrantów „za chlebem” byli głównie:",
+      "odpowiedz1": "właściciele pałaców",
+      "odpowiedz2": "ubodzy mieszkańcy wsi",
+      "odpowiedz3": "bogaci mieszczanie",
+      "odpowiedz4": "politycy",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Była to najbiedniejsza część społeczeństwa."
+    },
+    {
+      "id": "8",
+      "pytanie": "Ignacy Domeyko i Ernest Malinowski działali w:",
+      "odpowiedz1": "Australii",
+      "odpowiedz2": "Ameryce Południowej",
+      "odpowiedz3": "Ameryce Północnej",
+      "odpowiedz4": "Ameryce Środkowej",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Obydwaj podróżowali i badali Andy"
+    },
+    {
+      "id": "9",
+      "pytanie": "Jan Szczepanik opatentował: ",
+      "odpowiedz1": "zegarek",
+      "odpowiedz2": "kamizelką kuloodporną",
+      "odpowiedz3": "język esperanto",
+      "odpowiedz4": "semafor",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Jego wynalazek uratował życie królowi Hiszpanii."
+    },
+    {
+      "id": "10",
+      "pytanie": "Największa grupa potomków polskich emigrantów ekonomicznych mieszka dziś:",
+      "odpowiedz1": "w Azji",
+      "odpowiedz2": "w Ameryce",
+      "odpowiedz3": "w Afryce",
+      "odpowiedz4": "na Antarktydzie",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Polacy „za chlebem” udawali się często na zachód od Europy."
+    }
+  ],
+  "poziom2c": [
+    {
+      "id": "1",
+      "pytanie": " Która informacja na temat losów Polaków po powstaniu listopadowym jest nieprawdziwa?",
+      "odpowiedz1": "Zaborcy zabierali im majątki.",
+      "odpowiedz2": "Dostawali nagrody od zaborców.",
+      "odpowiedz3": "Spotykały ich represje.",
+      "odpowiedz4": "Mieli złe warunki do nauki.",
+      "prawidlowa_odpowiedz": "2",
+      "podpowiedz": "Polacy po powstaniu listopadowym znaleźli się w trudnej sytuacji."
+    },
+    {
+      "id": "2",
+      "pytanie": "Polonia to:",
+      "odpowiedz1": "Ukraińcy, którzy na stałe mieszkają w Polsce",
+      "odpowiedz2": "Polacy, którzy wyjeżdżają z Polski raz w roku na wakacje",
+      "odpowiedz3": "grupa osób pochodzenia polskiego, która na stałe mieszka za granicą ",
+      "odpowiedz4": "Polacy, którzy na stałe mieszkają w Polsce",
+      "prawidlowa_odpowiedz": "3",
+      "podpowiedz": "Ta nazwa odnosi się do Polaków na emigracji"
+    },
+    {
+      "id": "3",
+      "pytanie": "Jan Józef Baranowski:",
+      "odpowiedz1": "zbudował największą na świecie fabrykę zegarków kieszonkowych ",
+      "odpowiedz2": "napisał kilka powieści",
+      "odpowiedz3": "udoskonalił sieć kolejową (skonstruował semafor)",
+      "odpowiedz4": "założył pierwszy na świecie bank ",
+      "prawidlowa_odpowiedz": "3",
+      "podpowiedz": "Był wynalazcą."
+    },
+    {
+      "id": "4",
+      "pytanie": "Polacy w XIX wieku chętnie wyjeżdżali na emigrację do Paryża, ponieważ: ",
+      "odpowiedz1": "chcieli jak najszybciej zapomnieć o Polsce",
+      "odpowiedz2": " we Francji była lepsza pogoda",
+      "odpowiedz3": " rząd francuski płacił im zasiłek",
+      "odpowiedz4": " we Francji było tanio",
+      "prawidlowa_odpowiedz": "3",
+      "podpowiedz": "Chodzi o wypłacane pieniądze"
+    },
+    {
+      "id": "5",
+      "pytanie": "Juliusz Słowacki napisał wiersz „W pamiętniku Zofii Bobrówny”:",
+      "odpowiedz1": "w Krzemieńcu",
+      "odpowiedz2": "we Lwowie",
+      "odpowiedz3": "w Paryżu",
+      "odpowiedz4": "w Warszawie",
+      "prawidlowa_odpowiedz": "3",
+      "podpowiedz": "Wiersz ten powstał na emigracji."
+    },
+    {
+      "id": "6",
+      "pytanie": "Która informacja na temat sytuacji poetów i pisarzy, którzy po powstaniu listopadowym mieszkali na ziemiach polskich, jest prawdziwa?",
+      "odpowiedz1": "Ich dzieci mogły uczyć się w polskich uniwersytetach.",
+      "odpowiedz2": "W nagrodę mogli wyjechać na wakacje za granicę.",
+      "odpowiedz3": "Nie mogli wydawać swoich utworów w języku polskim.",
+      "odpowiedz4": "Zaborcy oddawali im swój majątek.",
+      "prawidlowa_odpowiedz": "3",
+      "podpowiedz": "Poeci i pisarze po powstaniu listopadowym mieli trudną sytuację życiową."
+    },
+    {
+      "id": "7",
+      "pytanie": "Wśród emigrantów „za chlebem” byli głównie:",
+      "odpowiedz1": "politycy ",
+      "odpowiedz2": "właściciele pałaców",
+      "odpowiedz3": "ubodzy mieszkańcy wsi",
+      "odpowiedz4": "bogaci mieszczanie",
+      "prawidlowa_odpowiedz": "3",
+      "podpowiedz": "Była to najbiedniejsza część społeczeństwa."
+    },
+    {
+      "id": "8",
+      "pytanie": "Ignacy Domeyko i Ernest Malinowski działali w:",
+      "odpowiedz1": "Ameryce Środkowej",
+      "odpowiedz2": "Australii",
+      "odpowiedz3": "Ameryce Południowej",
+      "odpowiedz4": "Ameryce Północnej",
+      "prawidlowa_odpowiedz": "3",
+      "podpowiedz": "Obydwaj podróżowali i badali Andy"
+    },
+    {
+      "id": "9",
+      "pytanie": "Jan Szczepanik opatentował: ",
+      "odpowiedz1": "semafor",
+      "odpowiedz2": "zegarek",
+      "odpowiedz3": "kamizelką kuloodporną",
+      "odpowiedz4": " ęzyk esperanto",
+      "prawidlowa_odpowiedz": "3",
+      "podpowiedz": "Jego wynalazek uratował życie królowi Hiszpanii."
+    },
+    {
+      "id": "10",
+      "pytanie": "Największa grupa potomków polskich emigrantów ekonomicznych mieszka dziś:",
+      "odpowiedz1": "na Antarktydzie",
+      "odpowiedz2": "w Azji",
+      "odpowiedz3": "w Ameryce",
+      "odpowiedz4": "w Afryce",
+      "prawidlowa_odpowiedz": "3",
+      "podpowiedz": "Polacy „za chlebem” udawali się często na zachód od Europy."
+    }
+  ]
+}
