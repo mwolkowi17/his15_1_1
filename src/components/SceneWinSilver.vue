@@ -1,0 +1,184 @@
+<script setup lang="ts">
+import { useMainCompStore } from "../stores/mainCompStore";
+import { onMounted, useTemplateRef, nextTick } from "vue";
+import { useFocusStore } from "../stores/focusStore";
+import ariatekst from "../lib/aria-texty.json";
+
+const storeFocus = useFocusStore();
+const storeMainComp = useMainCompStore();
+
+const silverWinRef = useTemplateRef("silver-win-ref");
+
+onMounted(async () => {
+  if (storeFocus.ifWinSilverInFocus) {
+    silverWinRef.value?.focus();
+  }
+  const sound_wygrana = new Audio(
+    new URL("../assets/fanfary.mp3", import.meta.url).href
+  );
+  await nextTick();
+  sound_wygrana.play();
+});
+
+async function GramDalej() {
+  storeFocus.ifLevelChoseInFocus = false;
+  await nextTick();
+  storeMainComp.ifWinSilver = false;
+  storeMainComp.ifSceneChose2 = true;
+}
+
+async function GramDalejFocus(event: any) {
+  event.preventDefault();
+  storeFocus.ifLevelChoseInFocus = true;
+  await nextTick();
+  storeMainComp.ifWinSilver = false;
+  storeMainComp.ifSceneChose2 = true;
+}
+
+function ZakonczGre() {
+  storeMainComp.ifWinSilver = false;
+  storeMainComp.ifMain1 = false;
+  //storeMainComp.ifMain2 = true;
+  storeMainComp.ifStart = true;
+}
+
+async function ZakonczGreFocus(event: any) {
+  event.preventDefault();
+  storeFocus.ifLevelChoseInFocus = true;
+  await nextTick();
+  storeMainComp.ifWinSilver = false;
+  storeMainComp.ifMain1 = false;
+  storeMainComp.ifStart = true;
+}
+</script>
+<template>
+  <div class="tlo">
+    <div class="container-win-silver">
+      <div class="circle">
+        <img
+          class="ikona"
+          src="../assets/puchar_silver.png"
+          width="191px"
+          height="227px"
+        />
+      </div>
+      <div
+        class="text-container"
+        ref="silver-win-ref"
+        tabindex="0"
+        :aria-label="ariatekst.komunikatSrebrny"
+      >
+        <p class="brawo">Brawo! Nagroda – srebrny puchar.</p>
+        <p class="text">Udało ci się ukończyć Poziom 1</p>
+        <p class="text">– chcesz grać dalej?</p>
+      </div>
+      <div class="button-row">
+        <button
+          class="my-button button-win"
+          @click="GramDalej"
+          @keydown.enter="GramDalejFocus"
+        >
+          Gram dalej
+        </button>
+        <button
+          class="my-button button-win"
+          @click="ZakonczGre"
+          @keydown.enter="ZakonczGreFocus"
+        >
+          Zakończ grę
+        </button>
+      </div>
+    </div>
+  </div>
+</template>
+<style scoped>
+.tlo {
+  background-image: url("../assets/plansza_his.png");
+  background-size: 1920px 1080px;
+  height: 1080px;
+  width: 1920px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.circle {
+  width: 289px;
+  height: 289px;
+  border-radius: 150px;
+  background-color: #093343;
+  position: relative;
+  top: 25px;
+  left: 555px;
+}
+
+.container-win-silver {
+  width: 1400px;
+  height: 778px;
+  border-radius: 39px;
+  background-color: #0bb717;
+  border: 5px solid #1d5488;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 145px;
+  left: 267px;
+}
+
+.text-container {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.text-container:focus {
+  outline: 3px solid black;
+  outline-offset: 5px;
+}
+
+.brawo {
+  font-size: 64px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+
+.text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ikona {
+  margin-top: 20px;
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.button-win {
+  text-align: center;
+  font-size: 36px;
+  font-style: bold;
+  font-weight: 400;
+  font-family: "Proxima Nova", sans-serif;
+  display: grid;
+  place-content: center;
+  width: 460px;
+  height: 113px;
+  border-radius: 39px;
+  background-color: #093343;
+  color: white;
+  position: relative;
+}
+
+.button-win:focus {
+  outline: 5px solid black;
+  outline-offset: 10px;
+}
+</style>
