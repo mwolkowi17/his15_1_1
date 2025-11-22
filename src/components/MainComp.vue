@@ -5,8 +5,11 @@ import SceneInstruction from "./SceneInstruction.vue";
 import SceneLevelChose1 from "./SceneLevelChose1.vue";
 import SceneLevelChose2 from "./SceneLevelChose2.vue";
 import SceneMain1 from "./SceneMain1.vue";
+import SceneMain2 from "./SceneMain2.vue";
 import PrzegranaSilver from "./PrzegranaSilver.vue";
+import PrzegranaGold from "./PrzegranaGold.vue";
 import SceneWinSilver from "./SceneWinSilver.vue";
+import SceneWinGold from "./SceneWinGold.vue";
 
 const store = useMainCompStore();
 </script>
@@ -16,7 +19,10 @@ const store = useMainCompStore();
   <SceneLevelChose1 v-if="store.ifSceneChose1" />
   <SceneLevelChose2 v-if="store.ifSceneChose2" />
   <SceneMain1 v-if="store.ifMain1" />
+  <SceneMain2 v-if="store.ifMain2" />
   <PrzegranaSilver v-if="store.ifPrzegranaSilver" />
+  <PrzegranaGold v-if="store.ifPrzegranaGold" />
   <SceneWinSilver v-if="store.ifWinSilver" />
+  <SceneWinGold v-if="store.ifWinGold" />
 </template>
 <style scoped></style>
