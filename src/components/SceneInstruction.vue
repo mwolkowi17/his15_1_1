@@ -33,6 +33,7 @@ async function grajWithFocus(event: any) {
   storeMainComp.ifSceneChose1 = true;
 }
 </script>
+
 <template>
   <div class="tlo" aria-label="Zasady gry">
     <div class="container">
@@ -161,7 +162,7 @@ async function grajWithFocus(event: any) {
   height: 1000px;
   width: 1800px;
   background-color: #e7f1ff;
-  border: 5px solid #02506c;
+  border: 5px solid #093343;
   border-radius: 82px;
   display: flex;
   flex-direction: column;

@@ -60,10 +60,10 @@ export const useSceneStore = defineStore("storeScene1", () => {
   const nrKolejki = ref(0);
 
   //właściwości koloru punktacji
-  const backgroundColorOdpowiedz1 = ref("#D7E2F1");
-  const backgroundColorOdpowiedz2 = ref("#D7E2F1");
-  const backgroundColorOdpowiedz3 = ref("#D7E2F1");
-  const backgroundColorOdpowiedz4 = ref("#D7E2F1");
+  const backgroundColorOdpowiedz1 = ref("#FFF5EC");
+  const backgroundColorOdpowiedz2 = ref("#FFF5EC");
+  const backgroundColorOdpowiedz3 = ref("#FFF5EC");
+  const backgroundColorOdpowiedz4 = ref("#FFF5EC");
 
   //metoda dodajaca losowo pytania
   async function addQuestionLevel1() {
@@ -74,10 +74,10 @@ export const useSceneStore = defineStore("storeScene1", () => {
     ifOdpowiedz2.value = true;
     ifOdpowiedz3.value = true;
     ifOdpowiedz4.value = true;
-    backgroundColorOdpowiedz1.value = "#D7E2F1";
-    backgroundColorOdpowiedz2.value = "#D7E2F1";
-    backgroundColorOdpowiedz3.value = "#D7E2F1";
-    backgroundColorOdpowiedz4.value = "#D7E2F1";
+    backgroundColorOdpowiedz1.value = "#FFF5EC";
+    backgroundColorOdpowiedz2.value = "#FFF5EC";
+    backgroundColorOdpowiedz3.value = "#FFF5EC";
+    backgroundColorOdpowiedz4.value = "#FFF5EC";
     let iloscElementowKolekcjiPytan = gameData.poziom1.length - nrKolejki.value;
     let pytanieNr: number;
     pytanieNr = metodyPomocnicze.wybierzPytanie(iloscElementowKolekcjiPytan);

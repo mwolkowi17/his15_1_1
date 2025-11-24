@@ -121,7 +121,7 @@ async function ZakonczGreInFocus(event: any) {
   width: 289px;
   height: 289px;
   border-radius: 150px;
-  background-color: #093343;
+  background-color: #000000;
   position: relative;
   top: 25px;
   left: 555px;
@@ -131,8 +131,8 @@ async function ZakonczGreInFocus(event: any) {
   width: 1400px;
   height: 778px;
   border-radius: 39px;
-  background-color: #0bb717;
-  border: 5px solid #1d5488;
+  background-color: #77a548;
+  border: 5px solid #000000;
   text-align: center;
   font-size: 48px;
   font-style: normal;
@@ -191,7 +191,7 @@ async function ZakonczGreInFocus(event: any) {
   width: 460px;
   height: 113px;
   border-radius: 39px;
-  background-color: #093343;
+  background-color: #000000;
   color: white;
   position: relative;
 }

@@ -82,7 +82,7 @@ async function Level2Focus(event: any) {
 }
 .button-level1 {
   color: white;
-  background-color: #093343;
+  background-color: #900000;
   width: 550px;
   height: 153px;
   border-radius: 39px;
@@ -91,11 +91,12 @@ async function Level2Focus(event: any) {
   font-weight: 600;
   font-family: "Proxima Nova", sans-serif;
   margin-right: 200px;
+  margin-top: 600px;
 }
 
 .button-level2 {
   color: white;
-  background-color: #093343;
+  background-color: #900000;
   width: 550px;
   height: 153px;
   border-radius: 39px;
@@ -103,6 +104,7 @@ async function Level2Focus(event: any) {
   font-style: bold;
   font-weight: 600;
   font-family: "Proxima Nova", sans-serif;
+  margin-top: 600px;
 }
 
 .button-level1:focus {

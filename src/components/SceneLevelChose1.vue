@@ -69,7 +69,7 @@ async function Level1Focus(event: any) {
 
 .button-level1 {
   color: white;
-  background-color: #093343;
+  background-color: #900000;
   width: 550px;
   height: 153px;
   border-radius: 39px;
@@ -78,11 +78,12 @@ async function Level1Focus(event: any) {
   font-weight: 600;
   font-family: "Proxima Nova", sans-serif;
   margin-right: 200px;
+  margin-top: 600px;
 }
 
 .button-level2 {
   color: white;
-  background-color: #6b6f71;
+  background-color: #233743;
   width: 550px;
   height: 153px;
   border-radius: 39px;
@@ -90,6 +91,7 @@ async function Level1Focus(event: any) {
   font-style: bold;
   font-weight: 600;
   font-family: "Proxima Nova", sans-serif;
+  margin-top: 600px;
 }
 
 .button-level1:focus {
@@ -104,7 +106,6 @@ async function Level1Focus(event: any) {
 
 .klodka-image {
   position: absolute;
-  top: 537px;
-  left: 1500px;
+  left: 1480px;
 }
 </style>

@@ -60,9 +60,9 @@ async function odpowiedz1Click() {
     storeSceneMain.Odpowiedz1(1);
     await nextTick();
     if (storeSceneMain.ifPrawidlowaOdpowiedz) {
-      storeSceneMain.backgroundColorOdpowiedz1 = "#0BB717";
+      storeSceneMain.backgroundColorOdpowiedz1 = "#77A548";
     } else {
-      storeSceneMain.backgroundColorOdpowiedz1 = "#F48506";
+      storeSceneMain.backgroundColorOdpowiedz1 = "#E07143";
     }
     odpowiedz1Ref.value?.blur();
     storeSceneMain.ifZablokowanaOdpowiedz = true;
@@ -79,9 +79,9 @@ async function odpowiedz1ClickWithFocus(event: any) {
     storeSceneMain.Odpowiedz1(1);
     await nextTick();
     if (storeSceneMain.ifPrawidlowaOdpowiedz) {
-      storeSceneMain.backgroundColorOdpowiedz1 = "#0BB717";
+      storeSceneMain.backgroundColorOdpowiedz1 = "#77A548";
     } else {
-      storeSceneMain.backgroundColorOdpowiedz1 = "#F48506";
+      storeSceneMain.backgroundColorOdpowiedz1 = "#E07143";
     }
     storeSceneMain.ifZablokowanaOdpowiedz = true;
     storeKola.ifZablokowaneKola = true;
@@ -96,9 +96,9 @@ async function odpowiedz2Click() {
     storeSceneMain.Odpowiedz1(2);
     await nextTick();
     if (storeSceneMain.ifPrawidlowaOdpowiedz) {
-      storeSceneMain.backgroundColorOdpowiedz2 = "#0BB717";
+      storeSceneMain.backgroundColorOdpowiedz2 = "#77A548";
     } else {
-      storeSceneMain.backgroundColorOdpowiedz2 = "#F48506";
+      storeSceneMain.backgroundColorOdpowiedz2 = "#E07143";
     }
     odpowiedz2Ref.value?.blur();
     storeSceneMain.ifZablokowanaOdpowiedz = true;
@@ -115,9 +115,9 @@ async function odpowiedz2ClickWithFocus(event: any) {
     storeSceneMain.Odpowiedz1(2);
     await nextTick();
     if (storeSceneMain.ifPrawidlowaOdpowiedz) {
-      storeSceneMain.backgroundColorOdpowiedz2 = "#0BB717";
+      storeSceneMain.backgroundColorOdpowiedz2 = "#77A548";
     } else {
-      storeSceneMain.backgroundColorOdpowiedz2 = "#F48506";
+      storeSceneMain.backgroundColorOdpowiedz2 = "#E07143";
     }
     storeSceneMain.ifZablokowanaOdpowiedz = true;
     storeKola.ifZablokowaneKola = true;
@@ -132,9 +132,9 @@ async function odpowiedz3Click() {
     storeSceneMain.Odpowiedz1(3);
     await nextTick();
     if (storeSceneMain.ifPrawidlowaOdpowiedz) {
-      storeSceneMain.backgroundColorOdpowiedz3 = "#0BB717";
+      storeSceneMain.backgroundColorOdpowiedz3 = "#77A548";
     } else {
-      storeSceneMain.backgroundColorOdpowiedz3 = "#F48506";
+      storeSceneMain.backgroundColorOdpowiedz3 = "#E07143";
     }
     odpowiedz3Ref.value?.blur();
     storeSceneMain.ifZablokowanaOdpowiedz = true;
@@ -151,9 +151,9 @@ async function odpowiedz3ClickWithFocus(event: any) {
     storeSceneMain.Odpowiedz1(3);
     await nextTick();
     if (storeSceneMain.ifPrawidlowaOdpowiedz) {
-      storeSceneMain.backgroundColorOdpowiedz3 = "#0BB717";
+      storeSceneMain.backgroundColorOdpowiedz3 = "#77A548";
     } else {
-      storeSceneMain.backgroundColorOdpowiedz3 = "#F48506";
+      storeSceneMain.backgroundColorOdpowiedz3 = "#E07143";
     }
     storeSceneMain.ifZablokowanaOdpowiedz = true;
     storeKola.ifZablokowaneKola = true;
@@ -168,9 +168,9 @@ async function odpowiedz4Click() {
     storeSceneMain.Odpowiedz1(4);
     await nextTick();
     if (storeSceneMain.ifPrawidlowaOdpowiedz) {
-      storeSceneMain.backgroundColorOdpowiedz4 = "#0BB717";
+      storeSceneMain.backgroundColorOdpowiedz4 = "#77A548";
     } else {
-      storeSceneMain.backgroundColorOdpowiedz4 = "#F48506";
+      storeSceneMain.backgroundColorOdpowiedz4 = "#E07143";
     }
     odpowiedz4Ref.value?.blur();
     storeSceneMain.ifZablokowanaOdpowiedz = true;
@@ -186,9 +186,9 @@ async function odpowiedz4ClickWithFocus(event: any) {
   storeSceneMain.Odpowiedz1(4);
   await nextTick();
   if (storeSceneMain.ifPrawidlowaOdpowiedz) {
-    storeSceneMain.backgroundColorOdpowiedz4 = "#0BB717";
+    storeSceneMain.backgroundColorOdpowiedz4 = "#77A548";
   } else {
-    storeSceneMain.backgroundColorOdpowiedz4 = "#F48506";
+    storeSceneMain.backgroundColorOdpowiedz4 = "#E07143";
   }
   storeSceneMain.ifZablokowanaOdpowiedz = true;
   storeKola.ifZablokowaneKola = true;
@@ -564,7 +564,7 @@ async function KoloPodpowiedzWithFocus(event: Event) {
     </div>
   </div>
 </template>
-<style setup>
+<style scoped>
 .tlo {
   background-image: url("../assets/plansza_his.png");
   background-size: 1920px 1080px;
@@ -702,8 +702,8 @@ async function KoloPodpowiedzWithFocus(event: Event) {
   width: 1255px;
   height: 125px;
   border-radius: 39px;
-  background-color: #d7e2f1;
-  border: 5px solid #1d5488;
+  background-color: #fff5ec;
+  border: 5px solid #303130;
   top: 633px;
   left: 32px;
   text-align: center;
@@ -732,7 +732,7 @@ async function KoloPodpowiedzWithFocus(event: Event) {
   width: 620px;
   height: 125px;
   border-radius: 39px;
-  border: 5px solid #1d5488;
+  border: 5px solid #303130;
 }
 
 .button-odpowiedz:focus {
@@ -746,8 +746,8 @@ async function KoloPodpowiedzWithFocus(event: Event) {
   height: 1070px;
   left: 1320px;
   top: 0px;
-  border: 5px solid #1d5488;
-  background-color: #0079a5;
+  border: 5px solid #000000;
+  background-color: #884442;
 }
 
 .licznik-czasu {
@@ -922,7 +922,8 @@ async function KoloPodpowiedzWithFocus(event: Event) {
 
 .ramka-punktacja {
   position: absolute;
-  background: #093343;
+  background: #303130;
+  border: 2px solid #ffefe3;
   width: 558px;
   height: 70px;
   left: 15px;

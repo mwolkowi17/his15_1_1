@@ -10,9 +10,9 @@ export const useMainCompStore = defineStore("mainComp1", () => {
   const ifSceneChose1 = ref(false);
   const ifSceneChose2 = ref(false);
   const ifMain1 = ref(false);
-  const ifMain2 = ref(true);
+  const ifMain2 = ref(false);
   const ifWinSilver = ref(false);
-  const ifWinGold = ref(false);
+  const ifWinGold = ref(true);
   const ifPrzegranaSilver = ref(false);
   const ifPrzegranaGold = ref(false);
 
