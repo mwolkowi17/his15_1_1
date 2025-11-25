@@ -5,14 +5,14 @@ export const useMainCompStore = defineStore("mainComp1", () => {
   //podstawowe sterowanie ekranami gry
 
   // const FirstPlayed = ref(true);
-  const ifStart = ref(false);
+  const ifStart = ref(true);
   const ifInstruction = ref(false);
   const ifSceneChose1 = ref(false);
   const ifSceneChose2 = ref(false);
   const ifMain1 = ref(false);
   const ifMain2 = ref(false);
   const ifWinSilver = ref(false);
-  const ifWinGold = ref(true);
+  const ifWinGold = ref(false);
   const ifPrzegranaSilver = ref(false);
   const ifPrzegranaGold = ref(false);
 
