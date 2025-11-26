@@ -161,7 +161,7 @@ async function grajWithFocus(event: any) {
 .inner-box {
   height: 1000px;
   width: 1800px;
-  background-color: #e7f1ff;
+  background-color: #fff1e6;
   border: 5px solid #093343;
   border-radius: 82px;
   display: flex;

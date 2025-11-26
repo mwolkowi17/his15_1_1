@@ -37,7 +37,7 @@ async function StartWithFocus(event: any) {
   <div class="tlo">
     <div class="title-container">
       <div>
-        <p>Podróż z Latarnikiem</p>
+        <p>Polacy na emigracji w XIX wieku</p>
       </div>
     </div>
     <button
@@ -68,10 +68,10 @@ async function StartWithFocus(event: any) {
 
 .title-container {
   position: absolute;
-  width: 800px;
+  width: 1000px;
   height: 150px;
   background-color: #fff1e6;
-  color: #093343;
+  color: #000000;
   font-size: 60px;
   font-style: bold;
   font-weight: 500;
