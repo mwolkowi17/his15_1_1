@@ -115,7 +115,7 @@ async function zakonczGreInFocus(event: any) {
 
 <style scoped>
 .tlo {
-  background-image: url("../assets/plansza_his.png");
+  background-image: url("../assets/plansza_his.jpg");
   background-size: 1920px 1080px;
   height: 1080px;
   width: 1920px;

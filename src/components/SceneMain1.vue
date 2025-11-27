@@ -26,6 +26,11 @@ onMounted(async () => {
   await nextTick();
   //nowy koncept zestawów pytań
   await nextTick();
+  storeSceneMain.pytanieTempRef = pytanieRef.value;
+  if (storeFocus.ifPytanieInFocus) {
+    pytanieRef.value?.focus();
+  }
+
   nrZetawuPytanScena1.value = metodyPomocnicze.wybierzZestawPytan();
   await nextTick();
   if (nrZetawuPytanScena1.value === 1) {
@@ -527,7 +532,7 @@ function KoloFiftyWithFocus(event: Event) {
 </template>
 <style scoped>
 .tlo {
-  background-image: url("../assets/plansza_his.png");
+  background-image: url("../assets/plansza_his.jpg");
   background-size: 1920px 1080px;
   height: 1080px;
   width: 1920px;

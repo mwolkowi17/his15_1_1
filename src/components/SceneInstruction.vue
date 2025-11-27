@@ -2,6 +2,7 @@
 import { useMainCompStore } from "../stores/mainCompStore";
 import { useFocusStore } from "../stores/focusStore";
 import { nextTick, useTemplateRef, onMounted, onUnmounted } from "vue";
+import instrukcja_reader from "../lib/aria-texty.json";
 
 const storeMainComp = useMainCompStore();
 const storeFocus = useFocusStore();
@@ -21,6 +22,7 @@ onUnmounted(() => {
 });
 
 async function Graj() {
+  storeFocus.ifLevelChoseInFocus = false;
   await nextTick();
   storeMainComp.ifInstruction = false;
   storeMainComp.ifSceneChose1 = true;
@@ -28,6 +30,7 @@ async function Graj() {
 
 async function grajWithFocus(event: any) {
   event.preventDefault();
+  storeFocus.ifLevelChoseInFocus = true;
   await nextTick();
   storeMainComp.ifInstruction = false;
   storeMainComp.ifSceneChose1 = true;
@@ -82,13 +85,12 @@ async function grajWithFocus(event: any) {
             <p class="podpis-1">&nbsp</p>
           </div>
         </div>
-        <!-- <ol
+        <ol
           class="zasady"
           ref="instrukcja"
           tabindex="0"
           :aria-label="instrukcja_reader.instrukcja"
-        > -->
-        <ol class="zasady" ref="instrukcja" tabindex="0">
+        >
           <li>
             Gra składa się z dwóch poziomów. Na każdym poziomie odpowiadasz na
             pięć pytań.
@@ -141,7 +143,7 @@ async function grajWithFocus(event: any) {
 }
 
 .tlo {
-  background-image: url("../assets/plansza_his.png");
+  background-image: url("../assets/plansza_his.jpg");
   background-size: 1920px 1080px;
   height: 1080px;
   width: 1920px;

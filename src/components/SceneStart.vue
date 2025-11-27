@@ -19,7 +19,7 @@ onUnmounted(() => {
 });
 
 async function Start() {
-  //storeFocus.ifInstructionFocus = false;
+  storeFocus.ifInstructionFocus = false;
   await nextTick();
   storeMainComp.ifStart = false;
   storeMainComp.ifInstruction = true;
@@ -27,7 +27,7 @@ async function Start() {
 
 async function StartWithFocus(event: any) {
   event.preventDefault();
-  //storeFocus.ifInstructionFocus = true;
+  storeFocus.ifInstructionFocus = true;
   await nextTick();
   storeMainComp.ifStart = false;
   storeMainComp.ifInstruction = true;
@@ -54,7 +54,7 @@ async function StartWithFocus(event: any) {
 
 <style scoped>
 .tlo {
-  background-image: url("../assets/plansza_his.png");
+  background-image: url("../assets/plansza_his.jpg");
   background-size: 1920px 1080px;
   height: 1080px;
   width: 1920px;
